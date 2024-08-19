@@ -1,0 +1,34 @@
+CORPUS -> Conjunto de dados utilizado para aprendizado de máquina
+
+TARGET -> Identificador do que queremos prever
+
+Espaço de característica -> O que não é target
+
+Instância -> Linhas da base de dados 
+
+Linguagem natural -> Forma de nós humanos nos comunicar *A máquina não entende*
+
+Tarefas de Classificação, Agrupamento e Regressão -> *Agrupamento não é supervisionado*
+
+Tarefa Classificação -> Binária
+					 -> Multi-Target binária - é ou não é o target
+					 -> Multi-Label - Multiplos targets de classificação -> Multi-Label Hierarquica - onde uma classificação depende da outra
+					 
+Baseline -> acurácia do banco - é util quando sua acurácia é de 50% ou mais (valor minimo esperado)
+
+%split -> técnica que deixa 75% das linhas para treino do modelo e os outros 25% para teste
+
+Trashhold -> Margem para acerto ou erro
+
+Balanceamento -> Binária (proporção de 0(-) e 1(+)) Conta matemática para calcular balanceamento -> 1/0 + 1
+
+Balanceamento é fundamental
+
+Undersampling -> Apaga aleatoriamente instancias do corpus
+
+Oversampling -> Insere instancias artificiais 
+
+Blend de modelos: junção de dois modelos para diferentes resultados -> Existe a possibilidade de comparar a entrada de um, com a saída do outro e vice-versa
+
+GAMMA(IA Generativa para slides)
+
